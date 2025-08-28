@@ -33,7 +33,7 @@ const Index = () => {
       location: "Helsinki",
       availableToday: true,
       price: "89€/istunto",
-      languages: ["Suomi", "Ruotsi", "Englanti"],
+      languages: ["Suomi", "Englanti"],
     },
     {
       id: "erik",
@@ -42,10 +42,10 @@ const Index = () => {
       specializations: ["CBT", "Burnout", "Työstressi", "Unihäiriöt"],
       image: therapistErik,
       rating: 4.8,
-      location: "Turku",
+      location: "Tampere",
       availableToday: false,
       price: "79€/istunto",
-      languages: ["Suomi", "Ruotsi"],
+      languages: ["Suomi", "Englanti"],
     },
     {
       id: "anna",
@@ -54,7 +54,7 @@ const Index = () => {
       specializations: ["Perheterapia", "Nuorisopsykiatria", "ADHD", "Autism"],
       image: therapistAnna,
       rating: 4.9,
-      location: "Tampere",
+      location: "Turku",
       availableToday: true,
       price: "95€/istunto",
       languages: ["Suomi", "Englanti"],
@@ -120,8 +120,9 @@ const Index = () => {
             </h1>
             
             <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-              Turvallinen ja helppokäyttöinen alusta, jossa voit varata ajan ammattitaitoiselta 
-              terapeutilta ja osallistua etävastaanottoon kotoa käsin.
+              Turvallinen ja helppokäyttöinen suomalainen alusta, jossa voit varata ajan ammattitaitoiselta 
+              terapeutilta ja osallistua etävastaanottoon kotoa käsin. Tunnistautuminen suomalaisilla 
+              pankkitunnuksilla tai mobiilivarmenteella.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
